@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+<script language="php">
+
+$movies = array(
+			"science fiction" => array("X-Men", "Star Wars", "Alien"),
+			"romantic comedy" => array("Sleepless in Seattle", "The Truth about Cats and Dogs", "Bridget Jones' Diary"),
+			"fantasy" => array("Cinderella", "Alice in Wonderland", "Harry Potter"));
+
+foreach($movies as $genre){
+	echo "$genre";
+	foreach($genre as $film){
+		echo " $film";
+	}
+	echo "<br/>";
+}
+</script>
+	</body>
+</html>
